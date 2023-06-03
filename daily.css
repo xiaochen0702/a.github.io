@@ -1,5 +1,5 @@
 body {
-    background-image:url(../images/index/background.png);
+    background-image:url(index/background.png);
     background-size: auto;
     border-radius: 50%;
     margin: 0px; 
@@ -169,10 +169,6 @@ tr:hover{
 #bg2 img {
     width: 175px;
 }
-
-
-
-
 
 
 * {
@@ -374,7 +370,7 @@ div#main4 div.inner div#cont_4_1 {
 div#main4 div.inner div#cont_4_2 {
     height: 260px;
     width: 644px;
-    background-image: url(../images/message/m2.png);
+    background-image: url(message/m2.png);
     background-color:#f1efe3;
     margin-right: 10px;
     margin-left: 30px;
