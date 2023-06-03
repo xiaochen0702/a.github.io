@@ -1,5 +1,5 @@
 body {
-    background-image:url(../images/index/background.png);
+    background-image:url(index/background.png);
     background-repeat: no-repeat;
     background-size: auto;
     border-radius: 0%;
@@ -124,7 +124,7 @@ body {
     background: #f1efe3;
     height: 451px;
     display: flex;
-    background-image: url(../images/message/m2.png);  
+    background-image: url(message/m2.png);  
 }
 
 .title {
@@ -143,7 +143,7 @@ body {
 .form {
     margin-left: 90px; 
     margin-top: 10px; 
-    background-image: url(../images/message/m2.png);  
+    background-image: url(message/m2.png);  
 }
 .liuyan {
     border: 2px solid darkseagreen;
