@@ -73,7 +73,7 @@ body {
 div#main_right div.wrapper div#cont_1_1 {
     height: 390px;
     width: 600px;
-    background-image: url(../images/message/m2.png);
+    background-image: url(message/m2.png);
     background-size: 600px 500px;
     margin-left: 10px;
 }
@@ -92,7 +92,7 @@ div#main_right div.wrapper div#cont_1_1 img {
 div#main_right div.wrapper div#cont_1_2  {
     height: 390px;
     width: 400px;
-    background-image: url(../images/message/m2.png);
+    background-image: url(message/m2.png);
     margin-left: 10px;  
 
 }
