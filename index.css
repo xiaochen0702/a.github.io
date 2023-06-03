@@ -1,5 +1,5 @@
 body {
-    background-image:url(../images/index/background.png);
+    background-image:url(index/background.png);
     background-size: auto;
     border-radius: 0%;
     margin: 0px; 
@@ -86,11 +86,6 @@ body {
     width: 175px;
 }
 
-
-
-
-
-
 * {
     margin: 0px;
     padding: 0px;
@@ -168,7 +163,7 @@ body {
 
     margin-top: 10px;
     margin-bottom: 20px;
-    background-image: url(../images/message/m2.png);  
+    background-image: url(message/m2.png);  
  
 }
 #main3 p {
