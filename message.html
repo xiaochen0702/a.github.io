@@ -9,15 +9,18 @@
 </head>
 
 <body>
-    <div id="bigbox">
-    <div id="title">
-        <img src="index/bg.png" alt="">
-        <div>
-            <img src="index/touxiang.png" alt="">
+    <div id="bigbox">      <!--盒子-->
+        <div id="header">     <!--页眉区header-->  
+            <img src="index/bg.png" alt="">
+            <div>
+                <img src="index/touxiang.png" alt="">
+            </div>
         </div>
-        </div>
-        <div id="main">
-            <div id="main_left">
+       <!--页眉区结束-->
+        <!--内容区1，内部又分为两个部分，导航区nav和内容区1右侧container_1_right-->
+        <div id="container_1">  
+            <!--导航区-->
+            <div id="nav">  
                 <a href="index.html">我的主页</a>
                 <a href="home.html">我的家乡</a>
                 <a href="daily.html">我的日常</a>
@@ -26,18 +29,22 @@
                     <img src="index/bg2.png" alt="">
                 </div>
             </div>
-            <div id="main_right">
-                <div class="content">
+            <!--导航区结束-->
+
+            <div id="container_1_right"> 
+                <div class="inner">
                     <ul class="wrapper">
                         <li><img src="message/m1.png"></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div id="main2">
-            <div class="title">
-                留言板
-            </div>
+        <!--内容区1结束-->
+
+        <!--内容区2-->
+        <div id="container_2">
+            <div class="title">留言板</div>
+            <!--创建form表单-->
             <form action="" method="post" class="liuyan">
                 <!--单行文本框-->
                 <div class="item">
@@ -50,6 +57,7 @@
                 <div class="item">
                     <input type="password" class="wenben" name="password" placeholder="密码">
                 </div>
+
                    <!--下拉框-->
                 <div class="item"> 
                     <select name="city" class="xiala">
@@ -63,6 +71,7 @@
                         <option value="其他">其他</option>
                     </select>
                 </div>
+                
                  <!--单选框-->
                 <div class="item">
                     <div class="danxuan">
@@ -99,10 +108,12 @@
                  </div>
             </form>
         </div>
-
+        <!--内容区2结束-->
+        <!--页脚区-->
         <footer>
             <p>版权所有©：小橙子</p>
         </footer>
+        <!--页脚区结束-->
     </div>
 </body>
 </html>
