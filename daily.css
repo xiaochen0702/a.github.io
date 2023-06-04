@@ -1,52 +1,49 @@
 body {
-    background-image:url(index/background.png);
-    background-size: auto;
-    border-radius: 50%;
-    margin: 0px; 
+    background-image:url(index/background.png);   /**设置背景图片**/ 
 }
 #bigbox {
-    width: 1150px;
-    margin: 0;
-    box-shadow: 2px 2px 5px #333333;
-    margin-left: auto;
-    margin-right: auto;
-    height: 96px;
+    width: 1150px;                        /**设置宽度**/
+    height: 96px;                        /**设置高度**/
+    -moz-box-shadow: 2px 2px 5px #333333;
+    -webkit-box-shadow: 2px 2px 5px #333333;
+    box-shadow: 2px 2px 5px #333333;             /**设置阴影区域**/
+    margin-left: auto;               
+    margin-right: auto;          /**设置居中显示**/
 }
-#title {
+
+#header {
     position: relative;
     width: 1150px;
-    font-size: 0px;
 }
-#title>img {
+
+#header>img {
     width: 1150px;
     height: 104px;
 }
-#title div img {
+#header div img {
     position: absolute;
     width: 80px;
     top: 12px;
     left: 50px;
     border-radius: 50%;
 }
-
-#main {
-    padding-top: 10px;
-    
-    background: #f1efe3;
+#container_1 {
+    background: #f1efe3;   /**设置背景颜色**/
+    padding-top: 10px;       /**设置内部上边距**/
+    font-size: 0px;
 }
-#main>div {
-    font-size: 16px;
+#container_1>div {
+    font-size: 16px;         /**设置字体大小**/
 }
-#main_left {
-    width: 170px;
-    display: inline-block;
-    height: 390px;
+#nav {
+    width: 170px;             /**设置导航区宽度**/
+    display: inline-block;      /**设置保留上下外边距/内边距**/
+    height: 390px;                /**设置导航区高度**/
 }
-#main_left a {
+#nav a {
     display: inline-block;
     text-align: center;
     width: 170px;
-    background: #525252;
     background: -webkit-linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
     background: linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
     height: 30px;
@@ -58,67 +55,62 @@ body {
     margin-top: 10px;
     font-size: 14px;
 }
-#main_left a:hover {
-    color:#171717;
-    font-weight: bold;
-}
 
-#main_right {
+
+
+#container_1_right {
     height: 370px;
     display: inline-block;
     margin-left: 20px;
 
 }
    
-div#main_right div.wrapper div#cont_1_1 {
+div#container_1_right div.wrapper div#cont_1_1 {
     height: 390px;
     width: 600px;
     background-image: url(message/m2.png);
     background-size: 600px 500px;
     margin-left: 10px;
 }
-#main_right p1 {
+#container_1_right p1 {
     color: #b89a53;
     font-size: 25px;
     margin-left: 50px;
     font-weight: bold;
 }
 
-div#main_right div.wrapper div#cont_1_1 img {
+div#container_1_right div.wrapper div#cont_1_1 img {
     height: 300px;
     width: 600px;
     margin-top: 20px;
 }
-div#main_right div.wrapper div#cont_1_2  {
+div#container_1_right div.wrapper div#cont_1_2  {
     height: 390px;
     width: 400px;
     background-image: url(message/m2.png);
     margin-left: 10px;  
-
 }
-div#main_right div.wrapper div#cont_1_2 img {
+div#container_1_right div.wrapper div#cont_1_2 img {
     height:100px;
     width: 130px;
     margin-top: 20px;
     margin-left: 20px;
-  
-    
 }
-#main_right p {
+#container_1_right p {
     font-size: 18px;
     line-height: 20px;
     margin-left: 25px;
     margin-top: 18px;
     font-weight: bold;
 }
-#main_right p2 {
+#container_1_right p2 {
     color:#b89a53;
     font-size: 25px;
     margin-top: 20px;
     margin-left: 20px;
     font-weight: bold;
 }
-#main_right p3 {
+#container_1_right p3 {
     font-size: 14px;
     margin-top: 10px;
     margin-left: 20px;
@@ -134,9 +126,7 @@ table {
     caption-side: bottom;
     /* border-spacing: 10px; */
     margin-left: 17px;
-
 }
-
 table td,tr {
     border: 3px plum solid;
     padding: 6px;
@@ -150,12 +140,9 @@ table td,tr {
     text-align: center;    /* 设置文本水平居中效果 */
     vertical-align:middle;    /* 设置文本垂直居中效果 */
 }
-
 tr:hover{
     background-color:pink;   /*鼠标移入到tr以后，改变颜色*/
   }
-
-
 
 #bg2 {
     margin-top: 10px;
@@ -169,7 +156,6 @@ tr:hover{
 #bg2 img {
     width: 175px;
 }
-
 
 * {
     margin: 0px;
@@ -205,10 +191,7 @@ tr:hover{
     height: 370px;
 } 
 
-
-
-
-#main2 {
+#container_2 {
     padding-top: 15px;
     padding-bottom: 15px;
     width: 1150px;
@@ -216,8 +199,6 @@ tr:hover{
     display: flex;
     background: #f1efe3;
 }
-
-
 #tupian {
     display: block;
     text-align: center;
@@ -236,14 +217,14 @@ tr:hover{
 }
 
 
-#main2 p {
+#container_2 p {
    font-size: 15px;
    margin-bottom: 20px;
    margin-top: 10px;
    font-style: italic;
    font-weight: bold;
 }
-#main2 p2 {
+#container_2 p2 {
     margin-bottom: 20px;
     font-weight: bold;
     display: inline-block;
@@ -258,7 +239,7 @@ tr:hover{
  }
  
 
-#main3 {
+#container_3 {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 450px;
@@ -269,7 +250,7 @@ tr:hover{
     margin-bottom: 20px;
 }
 
-div#main3 div.inner div#cont_3_1 {
+div#container_3 div.inner div#cont_3_1 {
     height: 272px;
     width: 344px;
     background-color:#f1efe3;
@@ -277,11 +258,11 @@ div#main3 div.inner div#cont_3_1 {
     margin-top: 20px;
     border-top: 4px solid #b89a53;
 }
-div#main3 div.inner div#cont_3_2 {
+div#container_3 div.inner div#cont_3_2 {
     height: 272px;
     margin: 20px;
     width: 344px;
-    background-color: #f1efe3;
+    background-color:#f1efe3;
     margin-left: -65px;
     margin-top: 25px;
     border-top: 4px solid #b89a53;
@@ -302,6 +283,7 @@ div#main3 div.inner div#cont_3_2 {
     margin-left: auto;
     display: block;
     margin-top: 10px;
+    color: lightgreen;
 }
 #cont_3_2 img {
     height: 200px;
@@ -319,7 +301,7 @@ div#main3 div.inner div#cont_3_2 {
     display: block;
     margin-top: 10px;
 }
-#main3 p1 {
+#container_3 p1 {
     display: inline-block;
     font-size: 30px !important;
     width: 28px;
@@ -331,7 +313,7 @@ div#main3 div.inner div#cont_3_2 {
     margin-right: 30px;
 }
 
-#main3 p2 {
+#container_3 p2 {
     display: inline-block;
     font-size: 15px !important;
     width: 60px;
@@ -343,7 +325,7 @@ div#main3 div.inner div#cont_3_2 {
     margin-right: 30px;
 }
 
-#main4 {
+#container_4 {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 690px;
@@ -353,17 +335,15 @@ div#main3 div.inner div#cont_3_2 {
     margin-bottom: 20px;
 }
 
-div#main4 div.inner div#cont_4_1 {
+div#container_4 div.inner div#cont_4_1 {
     height: 272px;
     width: 644px;
     background-color:#f1efe3;
     margin-right: 10px;
     margin-left: 30px;
     margin-top: 25px;
-    
-
 }
-div#main4 div.inner div#cont_4_2 {
+div#container_4 div.inner div#cont_4_2 {
     height: 260px;
     width: 644px;
     background-image: url(message/m2.png);
@@ -384,9 +364,7 @@ div#main4 div.inner div#cont_4_2 {
     width: 150px;
 }
 
-
-
-#main4 p1 {
+#container_4 p1 {
     font-size: 27px;
     margin-left: 30px;
     font-weight: bold;
@@ -396,22 +374,22 @@ div#main4 div.inner div#cont_4_2 {
     letter-spacing: 15px;
     margin-right: 30px;
 }
-#main4 p2 {
+#container_4 p2 {
     font-size:16px;
     line-height: 30px;
     padding: 20px;
 }
-#main4 p3 {
+#container_4 p3 {
     letter-spacing: 5px;  /*设置字符间距*/
     font-weight: bold;  /*设置字体加粗*/
     margin-top: 30px;
     margin-left: 20px;
     font-size: 20px;
 }
-#main4 span {
+#container_4 span {
     font-weight: bold;
 }
-#main4 span1 {
+#container_4 span1 {
     margin-top: 30px;
     font-size:15px;
     line-height: 35px;
@@ -429,4 +407,3 @@ footer {
     color: #fff;
     font-size: 14px;
 }
-
