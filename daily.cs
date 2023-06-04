@@ -272,9 +272,7 @@ tr:hover{
 div#main3 div.inner div#cont_3_1 {
     height: 272px;
     width: 344px;
- 
     background-color:#f1efe3;
-
     margin-left: -20px;
     margin-top: 20px;
     border-top: 4px solid #b89a53;
@@ -283,8 +281,7 @@ div#main3 div.inner div#cont_3_2 {
     height: 272px;
     margin: 20px;
     width: 344px;
-    background-color:#f1efe3;
- 
+    background-color: #f1efe3;
     margin-left: -65px;
     margin-top: 25px;
     border-top: 4px solid #b89a53;
