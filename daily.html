@@ -7,16 +7,22 @@
     <title>我的日常</title>
     <link rel="stylesheet" href="daily.css">
 </head>
+
+
 <body>
-    <div id="bigbox">
-        <div id="title">
+    <div id="bigbox">      <!--盒子-->
+        <div id="header">     <!--页眉区header-->  
             <img src="index/bg.png" alt="">
             <div>
                 <img src="index/touxiang.png" alt="">
             </div>
-            </div>
-        <div id="main">
-            <div id="main_left">
+        </div>
+       <!--页眉区结束-->
+
+        <!--内容区1，内部又分为两个部分，导航区nav和内容区1右侧container_1_right-->
+        <div id="container_1">  
+            <!--导航区-->
+            <div id="nav">  
                 <a href="index.html">我的主页</a>
                 <a href="home.html">我的家乡</a>
                 <a href="">我的日常</a>
@@ -25,20 +31,18 @@
                     <img src="index/bg2.png" alt="">
                 </div>
             </div>
+            <!--导航区结束-->
 
-            <div id="main_right">
+            <div id="container_1_right">  <!--内容区1的右侧，内部又分为两个部分cont_1_1和cont_1_2-->
                 <div class="content">
                     <div class="wrapper">
-                        <div id="cont_1_1">
-                            <p1>
-                                小小梦想：日常幻想开一个自己的甜品小店
-                            </p1>
+                        <div id="cont_1_1">  <!--内容区cont_1_1-->
+                            <p1>小小梦想：日常幻想开一个自己的甜品小店</p1>
                             <img src="daily/t1.png" alt="">
-                        </div>
+                        </div>    <!--内容区cont_1_1结束-->
+                         <!--内容区cont_1_2-->
                         <div id="cont_1_2">
-                            <p2>
-                                每天想？
-                            </p2>
+                            <p2>每天想？</p2>
                             <table class="table">
                                     <tr>
                                         <td>今天吃</td>
@@ -59,28 +63,27 @@
                              <!-- 制作表格 -->
                             <img src="daily/t3.png" alt="">
                             <img src="daily/t2.png" alt="">
-                            <p3>
-                                生活需要一点小小的仪式感，几枝美丽的花，
-                                <br>
+                            <p3>生活需要一点小小的仪式感，几枝美丽的花，<br>
                                 一份美味的甜品，幸福就是这样简单。
                             </p3>
                         </div>
+                         <!--内容区cont_1_2结束-->
                     </div>
                 </div>
-            </div>
+            </div>  <!--内容区1的右侧结束-->
         </div>
+        <!--内容区1结束-->
 
-        <div id="main2">
-            <p2 class="title2">
-                校园精彩瞬间
-            </p2>
+        <!--内容区2-->
+        <div id="container_2">
+            <p2 class="title2">校园精彩瞬间</p2>   <!--标题区-->
             <div id="tupian">
-
                 <img src="daily/d1.png" alt="">
                 <p>九孔桥</p>
                 <img src="daily/d4.png" alt="">
                 <p>体育场</p>
             </div>
+                <!--添加音频-->
                 <video controls="controls" width="642px" height="328px">
                     <source src="daily/d1.mp4" >
                 </video>
@@ -91,32 +94,38 @@
                 <p>环湖绿道</p>
             </div> 
         </div>
+        <!--内容区2结束-->
 
-        <div id="main3">
-            <p1 class="title3">
-                音乐分享
-            </p1>
+        <!--内容区3-->
+        <div id="container_3">
+            <p1 class="title3">音乐分享</p1>
             <p> 
+                <!--内容区3，内部又分为两个部分cont_3_1和cont_3_2-->
                 <div class="inner">
                     <div id="cont_3_1">
-                        <img src="daily/c1.png" alt="">
+                        <img src="daily/c1.png"  alt="">
+                        <!--添加音频并设置自动播放-->
                         <audio src="daily/music2.mp3" controls="controls" autoplay="autoplay" loop="loop" >
                         </audio>
-                    </div>
+                    </div>   <!--内容区cont_3_1结束-->
 
                     <div id="cont_3_2">
                         <img src="daily/c2.png" alt="">
+                         <!--添加音频但不设置自动播放-->
                         <audio src="daily/music1.mp3" controls="controls" >
                         </audio>
-                    </div>
+                    </div>    <!--内容区cont_3_2结束-->
                 </div>
             </p>
         </div>
+        <!--内容区3结束-->
 
-        <div id="main4">
+        <!--内容区4-->
+        <div id="container_4">
             <p1 class="title3">
                 书籍分享
             </p1>
+             <!--内容区4，内部又分为两个部分cont_4_1和cont_4_2-->
                 <div class="inner">
                     <div id="cont_4_1">
                         <p>
@@ -132,31 +141,24 @@
                             </p2>
                         </p>
                     </div>
-
-
                     <div id="cont_4_2">
-                        <p3>
-                            佳句集锦
-                        </p3>
-                        <br>
-                        <br>
-                        <span1>（1） 外婆说，什么叫故乡，祖祖辈辈埋葬在这里，所以叫故乡。</span1>
-                        <br>
+                        <p3>佳句集锦 </p3><br>
+                        <span1>（1） 外婆说，什么叫故乡，祖祖辈辈埋葬在这里，所以叫故乡。</span1><br>
                         <span1>（2） 那么热的夏天， 少年的后背被女孩的悲伤烫出一个洞， 一直贯穿到心脏， 
-                        无数个季节的风穿越过这条通道， 有一只萤火虫在风里飞舞， 忽明忽暗。</span1>
-                        <br>
-                        <span1>（3） 有些人刻苦铭心，没几年会遗忘。有些人不论生死，都陪在身旁。</span1>
-                        <br>
-                        <span1>（4） 生命是有光的。在我熄灭以前，能够照亮你一点，就是我所有能做的了。我爱你，你要记得我。</span1>
-                        <br>
-
+                        无数个季节的风穿越过这条通道， 有一只萤火虫在风里飞舞， 忽明忽暗。</span1><br>
+                        <span1>（3） 有些人刻苦铭心，没几年会遗忘。有些人不论生死，都陪在身旁。</span1> <br>
+                        <span1>（4） 生命是有光的。在我熄灭以前，能够照亮你一点，就是我所有能做的了。
+                        我爱你，你要记得我。</span1>
                     </div>
                 </div>
-
         </div>
+        <!--内容区4结束-->
+
+        <!--页脚区-->
         <footer>
             <p>版权所有©：小橙子</p>
         </footer>
+        <!--页脚区结束-->
     </div>       
 </body>
 </html>
