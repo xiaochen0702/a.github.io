@@ -1,23 +1,14 @@
 body {
-    background-image:url(index/background.png);
-    background-size: auto;
-    border-radius: 0%;
-    margin: 0px; 
+    background-image:url(index/background.png);   /**设置背景图片**/ 
 }
-
 #bigbox {
-    width: 1150px;
-    margin: 0;
+    width: 1150px;                        /**设置宽度**/
+    height: 96px;                        /**设置高度**/
     -moz-box-shadow: 2px 2px 5px #333333;
     -webkit-box-shadow: 2px 2px 5px #333333;
-    box-shadow: 2px 2px 5px #333333;
-    margin-left: auto;
-    margin-right: auto;
-    height: 96px;
-}
-#header {
-    position: relative;
-    width: 1150px;
+    box-shadow: 2px 2px 5px #333333;             /**设置阴影区域**/
+    margin-left: auto;               
+    margin-right: auto;          /**设置居中显示**/
 }
 #header>img {
     width: 1150px;
@@ -31,24 +22,20 @@ body {
     border-radius: 50%;
 }
 
-#main {
-    background: #f1efe3;
-    padding-top: 10px;
-    font-size: 0px;
+#container_1 {
+    background: #f1efe3;   /**设置背景颜色**/
+    padding-top: 10px;       /**设置内部上边距**/
+    font-size: 0;
 }
-#main>div {
-    font-size: 16px;
+#nav {
+    width: 170px;             /**设置导航区宽度**/
+    display: inline-block;      /**设置保留上下外边距/内边距**/
+    height: 390px;                /**设置导航区高度**/
 }
-#main_left {
-    width: 170px;
-    display: inline-block;
-    height: 390px;
-}
-#main_left a {
+#nav a {
     display: inline-block;
     text-align: center;
     width: 170px;
-    background: #525252;
     background: -webkit-linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
     background: linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
     height: 30px;
@@ -60,19 +47,16 @@ body {
     margin-top: 10px;
     font-size: 14px;
 }
-#main_left a:hover {
-    color:#171717;
-    font-weight: bold;
-}
-#main_right {
+
+#container_1_right {
     height: 370px;
     width: 970px;
     display: inline-block;
     border-radius: 4px;
     overflow: hidden;
     margin-left: 10px;
-    
 }
+
 #bg2 {
     margin-top: 10px;
     width: 170px;
@@ -91,12 +75,13 @@ body {
     padding: 0px;
 }
 
-.content {
+.inner {
     width: 940px;
     height: 370px;
     position: relative;
     overflow: hidden;
     margin: 0 auto;
+  
 }
 .wrapper {
     width: 400%;
@@ -120,7 +105,9 @@ body {
     height: 370px;
 } 
 
-#main2 {
+
+
+#container_2 {
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 0px;
@@ -151,43 +138,44 @@ body {
     line-height: 40px;
     margin-right: 20px;
 }
-#main2 p {
+#container_2 p {
    font-size: 19px;
 }
-#main3 {
+
+
+#container_3 {
     position: relative;
     width: 1150px;
     height: 170px;
     padding-top: 10px;
     padding-bottom: 30px;
-
     margin-top: 10px;
     margin-bottom: 20px;
     background-image: url(message/m2.png);  
  
 }
-#main3 p {
+#container_3 p {
     font-size: 15px;
     line-height: 35px;
     margin-left: 30px;
 }
-#main3 p:last-child {
+#container_3 p:last-child {
     position: absolute;
     right: 30px;
     top: 30px;
     width: 500px;
     margin-top: -15px;
 }
-#main3 span {
+#container_3 span {
     font-weight: bold;
 }
-footer {
-    width: 1150px;
-    text-align: center;
-    line-height: 60px;
-    background: #525252;
+footer {                                 /**设置页脚区**/
+    width: 1150px;                      /**设置页脚区的宽度**/
+    text-align: center;                /**设置文字居中显示**/
+    line-height: 60px;                /**设置行高**/
+    background: #525252;           /**设置背景颜色**/
     background: -moz-linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
     background: linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
-    color: #fff;
-    font-size: 14px;
+    color: #fff;                        /**设置字体颜色**/
+    font-size: 14px;                      /**设置字体大小**/
 }
